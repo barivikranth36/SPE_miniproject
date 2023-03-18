@@ -21,13 +21,13 @@ pipeline {
                   sh 'docker build -t barivikranth36/spe_miniproject:latest .'
             }
         }
-//       stage('Push Docker Image to Docker Hub') {
-//               steps {
-//                         withDockerRegistry([ credentialsId: "docker-cred", url: "" ]){
-//                         sh 'docker push imshukla/calculator:latest'
-//                     }
-//               }
-//       }
+      stage('Push Docker Image to Docker Hub') {
+              steps {
+                        withDockerRegistry([ credentialsId: "docker-cred", url: "" ]){
+                        sh 'docker push barivikranth36/spe_miniproject:latest'
+                    }
+              }
+      }
 //       stage('Ansible Pull Docker Image') {
 //                   steps {
 //                       ansiblePlaybook becomeUser: null,
