@@ -16,11 +16,11 @@ pipeline {
                 sh "mvn test"
              }
         }
-//       stage('Docker Build to Image') {
-//              steps {
-//                   sh 'docker build -t imshukla/calculator:latest .'
-//             }
-//         }
+      stage('Docker Build to Image') {
+             steps {
+                  sh 'docker build barivikranth36/spe_miniproject:latest .'
+            }
+        }
 //       stage('Push Docker Image to Docker Hub') {
 //               steps {
 //                         withDockerRegistry([ credentialsId: "docker-cred", url: "" ]){
