@@ -1,0 +1,10 @@
+2023-03-19 01:08:45.076 [main] INFO  com.vikranth.project.Calculator - [FACTORIAL] - 2.0
+2023-03-19 01:08:45.080 [main] INFO  com.vikranth.project.Calculator - [RESULT - FACTORIAL] - 2.0
+2023-03-19 01:08:48.383 [main] INFO  com.vikranth.project.Calculator - [SQ ROOT] - 4.0
+2023-03-19 01:08:48.384 [main] INFO  com.vikranth.project.Calculator - [RESULT - SQ ROOT] - 2.0
+2023-03-19 01:08:54.589 [main] INFO  com.vikranth.project.Calculator - [SQ ROOT] - 2.0
+2023-03-19 01:08:54.590 [main] INFO  com.vikranth.project.Calculator - [RESULT - SQ ROOT] - 1.4142135623730951
+2023-03-19 01:09:22.196 [main] INFO  com.vikranth.project.Calculator - [NATURAL LOG] - 10.0
+2023-03-19 01:09:22.198 [main] INFO  com.vikranth.project.Calculator - [RESULT - NATURAL LOG] - 2.302585092994046
+2023-03-19 01:09:30.697 [main] INFO  com.vikranth.project.Calculator - [POWER - 2.0 RAISED TO] 4.0
+2023-03-19 01:09:30.697 [main] INFO  com.vikranth.project.Calculator - [RESULT - POWER] - 16.0
