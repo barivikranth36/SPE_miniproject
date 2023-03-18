@@ -18,7 +18,7 @@ pipeline {
         }
       stage('Docker Build to Image') {
              steps {
-                  sh 'docker build barivikranth36/spe_miniproject:latest .'
+                  sh 'docker build -t barivikranth36/spe_miniproject:latest .'
             }
         }
 //       stage('Push Docker Image to Docker Hub') {
