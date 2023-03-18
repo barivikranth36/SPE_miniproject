@@ -6,11 +6,11 @@ pipeline {
                 git url: 'https://github.com/barivikranth36/SPE_miniproject.git' , branch: 'master'
             }
         }
-//       stage('Maven Build') {
-//             steps {
-//                 sh 'mvn clean install'
-//             }
-//         }
+      stage('Maven Build') {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
 //       stage('Testing project') {
 //              steps {
 //                 sh "mvn test"
