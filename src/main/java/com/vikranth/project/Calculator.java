@@ -18,7 +18,7 @@ public class Calculator {
         double number1, number2;
         do {
             System.out.println("Scientific Calculator using DevOps. \n Choose operation:");
-            System.out.print("1. Factorial\n2. Square root\n3. Power\n4. Natural Logarithm\n" +
+            System.out.print("1. Factorial (n!)\n2. Square root (x^(1/2))\n3. Power (x^n)\n4. Natural Logarithm (ln(x))\n" +
                     "5. Exit\nEnter your choice: ");
             int choice;
             try {
@@ -63,7 +63,7 @@ public class Calculator {
 
                     break;
                 default:
-                    System.out.println("Exiting....");
+                    System.out.println("Exiting.... \nGood Bye!!!");
                     return;
             }
         } while (true);
