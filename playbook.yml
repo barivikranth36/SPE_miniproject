@@ -1,6 +1,6 @@
 ---
 - name: Pull docker image of Calculator
-  hosts: vikranth
+  hosts: akanksha
   tasks:
     - name: Start docker service
       service:
